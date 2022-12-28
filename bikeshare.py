@@ -94,7 +94,7 @@ def station_stats(df):
     print(f"The most common used start station is {df['Start Station'].value_counts().index[0]}.")
 
 
-    # display most frequent combination of start station and end station trip
+    # display most frequent combination of start station and end station trip details
     df['Start_End_Station'] = df['Start Station']+" "+ df['End Station']
     print(f"The most frequent combination of start station and end station trip is {df['Start_End_Station'].value_counts().index[0]}.")
     
