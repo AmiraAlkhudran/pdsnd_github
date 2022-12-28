@@ -1,5 +1,3 @@
-GitHub project (Project 3) repository for PDSND
-Forked from udacity/pdsnd_github
 
 ### Date created
 30 / 11 / 2022
